@@ -1,0 +1,2 @@
+# HR-DATABASE-ANALYSIS
+ This project contains a comprehensive HR database consisting of tables such as countries, departments, employees, job_history, jobs, locations, and regions. The database has been thoroughly analyzed to provide insights into various HR metrics such as employee retention, job satisfaction, salary distribution, and much more. By making this database available on GitHub, it can serve as a valuable resource for HR professionals, data analysts, and anyone interested in exploring HR analytics.
