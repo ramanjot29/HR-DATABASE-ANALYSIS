@@ -244,6 +244,17 @@ where mod(employee_id,2)=0;
 select distinct(salary) as DS from employees
 order by DS desc limit 1 offset 4;
  
+ /*--47.Write a query to find the 4th minimum salary in the employees table.--*/
+
+
+select distinct(salary)  from employees e1
+where  4=(select count(distinct(salary)) from employees e2 where e2.salary<=e1.salary);
+
+/*--48.Write a query to select last 10 records from a table.--*/
+
+select * from (select * from employees
+order by employee_id desc limit 10) emp2
+order by emp2.employee_id asc;
  
  
  
